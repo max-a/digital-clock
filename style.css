@@ -1,0 +1,58 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  height: 100vh;
+  justify-content: center;
+  background-image: url(img/marita-kavelashvili-ugnrXk1129g-unsplash.jpg);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  overflow: hidden;
+}
+
+h2 {
+  text-transform: uppercase;
+  letter-spacing: 4px;
+  font-size: 0.8rem;
+  text-align: center;
+  color: rgb(75, 75, 75);
+}
+
+.clock-wrapper {
+  display: flex;
+}
+
+.clock-wrapper div {
+  margin: 5px;
+  position: relative;
+}
+
+.clock-wrapper span {
+  width: 100px;
+  height: 80px;
+  opacity: 0.8;
+  color: rgb(75, 75, 75);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 4rem;
+}
+
+.clock-wrapper .time-label {
+  height: 30px;
+  font-size: 0.8rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  opacity: 0.8;
+}
+
+.clock-wrapper #amPm {
+  bottom: 0;
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  font-size: 1rem;
+}
